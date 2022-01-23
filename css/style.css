@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Ubuntu Mono', monospace;
+}
+a{
+    text-decoration: none;
+}
+.bg-light-orange{
+    background-color: #FCEAE8;
+}
+.bg-light-purple{
+    background-color: #DA70D6;
+}
+.bg-tomato, .btn-tomato{
+    background-color: #FF136F;
+    color: #fff;
+}
+
