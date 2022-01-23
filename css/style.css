@@ -18,4 +18,34 @@ a{
     background-color: #FF136F;
     color: #fff;
 }
+.carousel-item{
+    height: 584px;
+}
+.carousel-item1{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item2{
+    background-image: url(../images/carousel2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.carousel-item3{
+    background-image: url(../images/carousel3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-caption{
+    width: 640px;
+    height: 230px;
+}
 
+@media (max-width:767px){
+    .carousel-caption{
+        width: 90%;
+    }
+}
