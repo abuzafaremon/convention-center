@@ -62,3 +62,8 @@ a{
         width: 90%;
     }
 }
+@media (max-width:350px){
+    .navbar-brand{
+        font-size: 15px;
+    }
+}
